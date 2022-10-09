@@ -1,4 +1,0 @@
-[debug] [output3-test] Classpath dependencies List()
-[debug] [output3-test] Dependencies from configurations List(output3)
-[debug] Bloop wrote the configuration of project 'output3-test' to '/home/ubuntu/repos/generate_readme/.bloop/output3-test.json'
-[success] Generated .bloop/output3-test.json

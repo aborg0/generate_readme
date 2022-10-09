@@ -1,0 +1,7 @@
+**/.metals/*
+**/.bsp/*
+**/.bloop/*
+**/.sbt/*
+**/.vscode/*
+**/target/*
+**/metals.sbt

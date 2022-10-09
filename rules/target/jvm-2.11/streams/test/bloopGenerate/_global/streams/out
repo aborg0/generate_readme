@@ -1,4 +1,0 @@
-[debug] [rules2_11-test] Classpath dependencies List()
-[debug] [rules2_11-test] Dependencies from configurations List(rules2_11)
-[debug] Bloop wrote the configuration of project 'rules2_11-test' to '/home/ubuntu/repos/scalafix/.bloop/rules2_11-test.json'
-[success] Generated .bloop/rules2_11-test.json

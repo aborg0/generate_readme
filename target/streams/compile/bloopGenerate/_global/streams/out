@@ -1,4 +1,0 @@
-[debug] [generate-readme-rules] Classpath dependencies List()
-[debug] [generate-readme-rules] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'generate-readme-rules' to '/home/ubuntu/repos/generate_readme/.bloop/generate-readme-rules.json'
-[success] Generated .bloop/generate-readme-rules.json
