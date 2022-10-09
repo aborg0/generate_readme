@@ -1,0 +1,3 @@
+[debug] not up to date. inChanged = true, force = false
+[debug] Updating ProjectRef(uri("file:/home/ubuntu/repos/scalafix/"), "testsTarget2_11")...
+[debug] Done updating ProjectRef(uri("file:/home/ubuntu/repos/scalafix/"), "testsTarget2_11")

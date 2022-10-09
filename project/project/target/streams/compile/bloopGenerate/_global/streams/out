@@ -1,0 +1,4 @@
+[debug] [generate_readme-build-build] Classpath dependencies List()
+[debug] [generate_readme-build-build] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'generate_readme-build-build' to '/home/ubuntu/repos/generate_readme/project/project/.bloop/generate_readme-build-build.json'
+[success] Generated .bloop/generate_readme-build-build.json

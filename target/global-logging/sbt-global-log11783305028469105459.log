@@ -1,0 +1,47 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(f4c17c2c-3a37-452b-b689-f7f52e48e866), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: testsTarget2_12 / Test / test, rules2_13 / Test / test, testsTarget3 / Test / test, input3 / Test / test, testsTarget2_13 / Test / test, output2_13 / Test / test, input2_13 / Test / test, input2_12 / Test / test, output3 / Test / test, output2_12 / Test / test, rules2_12 / Test / test, Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/generate_readme/rules/target/jvm-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/generate_readme/rules/target/jvm-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRuleSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fix/Scalafixmyrules.scala *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: None.get[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:529)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.None$.get(Option.scala:527)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fix.GenerateReadme$$anonfun$fix$1.applyOrElse(GenerateReadme.scala:30)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at fix.GenerateReadme$$anonfun$fix$1.applyOrElse(GenerateReadme.scala:28)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.PartialFunction$Lifted.apply(PartialFunction.scala:228)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.PartialFunction$Lifted.apply(PartialFunction.scala:224)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.meta.transversers.Api$XtensionCollectionLikeUI$traverser$3$.apply(Api.scala:32)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1(SimpleTraverser.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.meta.transversers.SimpleTraverser.$anonfun$apply$1$adapted(SimpleTraverser.scala:5)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.collection.immutable.List.foreach(List.scala:431)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fix/SimpleGraph.scala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fix/ScalafixmyrulesSignificantIndentation.scala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 767 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 3[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	fix.RuleSuite[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRuleSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fix/Scalafixmyrules.scala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fix/SimpleGraph.scala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 367 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRuleSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fix/Scalafixmyrules.scala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- fix/SimpleGraph.scala[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 2 seconds, 573 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 2, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[31merror[0m] [0m[0m(testsTarget3 / Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 4 s, completed Oct 9, 2022, 9:09:45 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

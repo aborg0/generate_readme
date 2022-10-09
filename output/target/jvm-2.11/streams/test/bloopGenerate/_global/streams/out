@@ -1,0 +1,4 @@
+[debug] [output2_11-test] Classpath dependencies List()
+[debug] [output2_11-test] Dependencies from configurations List(output2_11)
+[debug] Bloop wrote the configuration of project 'output2_11-test' to '/home/ubuntu/repos/scalafix/.bloop/output2_11-test.json'
+[success] Generated .bloop/output2_11-test.json

@@ -1,0 +1,107 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, Some(9c55514e-7536-4201-87b4-7868695b7b17), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: rules2_12 / Test / test, input3 / Test / test, output2_12 / Test / test, rules2_13 / Test / test, input2_12 / Test / test, output2_13 / Test / test, testsTarget2_12 / Test / test, output3 / Test / test, testsTarget3 / Test / test, testsTarget2_13 / Test / test, input2_13 / Test / test, Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/input/target/jvm-2.12/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/ubuntu/repos/scalafix/input/target/jvm-3/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/output/target/jvm-2.12/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 2 deprecation warnings; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/rules/target/jvm-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 2 Scala sources to /home/ubuntu/repos/scalafix/output/target/jvm-3/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree deprecations (since 2.6.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/output/target/jvm-2.13/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree deprecations (since 2.6.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/input/target/jvm-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/rules/target/jvm-2.12/classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere were 2 deprecation warnings; re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/tests/target/target2.13-jvm-2.13/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m3 deprecations (since 2.6.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/tests/target/target3-jvm-2.12/test-classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/ubuntu/repos/scalafix/tests/target/target2.12-jvm-2.12/test-classes ...[0m
+[0m[[0m[33mwarn[0m] [0m[0m3 deprecations (since 2.6.0); re-run with -deprecation for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRuleSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fix/Scalafixmyrules.scala *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: Unknown rule 'GenerateReadme'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at metaconfig.Configured.get(Configured.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.RuleTest$.$anonfun$fromPath$1(RuleTest.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.evaluateTestBody(AbstractSemanticRuleSuite.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.$anonfun$runOn$1(AbstractSemanticRuleSuite.scala:97)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.scala:18)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 646 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	fix.RuleSuite[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRuleSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fix/Scalafixmyrules.scala *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: Unknown rule 'GenerateReadme'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at metaconfig.Configured.get(Configured.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.RuleTest$.$anonfun$fromPath$1(RuleTest.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.evaluateTestBody(AbstractSemanticRuleSuite.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.$anonfun$runOn$1(AbstractSemanticRuleSuite.scala:97)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 553 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	fix.RuleSuite[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mRuleSuite:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fix/Scalafixmyrules.scala *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: Unknown rule 'GenerateReadme'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at metaconfig.Configured.get(Configured.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.RuleTest$.$anonfun$fromPath$1(RuleTest.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.evaluateTestBody(AbstractSemanticRuleSuite.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.$anonfun$runOn$1(AbstractSemanticRuleSuite.scala:97)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- fix/ScalafixmyrulesSignificantIndentation.scala *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  java.util.NoSuchElementException: Unknown rule 'GenerateReadme'[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at metaconfig.Configured.get(Configured.scala:15)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.RuleTest$.$anonfun$fromPath$1(RuleTest.scala:62)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.evaluateTestBody(AbstractSemanticRuleSuite.scala:37)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scalafix.testkit.AbstractSemanticRuleSuite.$anonfun$runOn$1(AbstractSemanticRuleSuite.scala:97)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at scala.runtime.java8.JFunction0$mcV$sp.apply(JFunction0$mcV$sp.java:23)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf(OutcomeOf.scala:85)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf.outcomeOf$(OutcomeOf.scala:83)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.OutcomeOf$.outcomeOf(OutcomeOf.scala:104)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:22)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  at org.scalatest.Transformer.apply(Transformer.scala:20)[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 1 second, 633 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 2[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 0, failed 2, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m*** 2 TESTS FAILED ***[0m[0m
+[0m[[0m[31merror[0m] [0m[0mFailed tests:[0m
+[0m[[0m[31merror[0m] [0m[0m	fix.RuleSuite[0m
+[0m[[0m[31merror[0m] [0m[0m(testsTarget2_12 / Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0m(testsTarget3 / Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0m(testsTarget2_13 / Test / [31mtest[0m) sbt.TestsFailedException: Tests unsuccessful[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 14 s, completed Oct 6, 2022, 9:59:11 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

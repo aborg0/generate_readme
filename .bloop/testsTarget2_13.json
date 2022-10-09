@@ -1,0 +1,625 @@
+{
+    "version": "1.4.0",
+    "project": {
+        "name": "testsTarget2_13",
+        "directory": "/home/ubuntu/repos/generate_readme/.sbt/matrix/testsTarget2_13",
+        "workspaceDir": "/home/ubuntu/repos/generate_readme",
+        "sources": [
+            "/home/ubuntu/repos/generate_readme/tests/src/main/scala",
+            "/home/ubuntu/repos/generate_readme/tests/src/main/scala-2.13",
+            "/home/ubuntu/repos/generate_readme/tests/src/main/scala-2",
+            "/home/ubuntu/repos/generate_readme/tests/src/main/java",
+            "/home/ubuntu/repos/generate_readme/tests/src/main/scalatarget2.13-jvm",
+            "/home/ubuntu/repos/generate_readme/tests/src/main/scalatarget2.13-jvm-2.13",
+            "/home/ubuntu/repos/generate_readme/tests/target/target2.13-jvm-2.13/src_managed/main"
+        ],
+        "dependencies": [
+            "rules2_13"
+        ],
+        "classpath": [
+            "/home/ubuntu/repos/generate_readme/.bloop/rules2_13/scala-2.13/classes",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.13/0.10.3/scalafix-core_2.13-0.10.3.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.13/scalameta_2.13-4.5.13.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.8.0/scala-collection-compat_2.13-2.8.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.13/parsers_2.13-4.5.13.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.9/scalap-2.13.9.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.13/trees_2.13-4.5.13.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.9/scala-compiler-2.13.9.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.2/paiges-core_2.13-0.4.2.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.9/scala-reflect-2.13.9.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.13/common_2.13-4.5.13.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-v2_2.13/2.3.1/fastparse-v2_2.13-2.3.1.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.3.0/fansi_2.13-0.3.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.11/scalapb-runtime_2.13-0.11.11.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.11/lenses_2.13-0.11.11.jar",
+            "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.jar"
+        ],
+        "out": "/home/ubuntu/repos/generate_readme/.bloop/testsTarget2_13",
+        "classesDir": "/home/ubuntu/repos/generate_readme/.bloop/testsTarget2_13/scala-2.13/classes",
+        "resources": [
+            "/home/ubuntu/repos/generate_readme/tests/src/main/resources",
+            "/home/ubuntu/repos/generate_readme/tests/target/target2.13-jvm-2.13/resource_managed/main"
+        ],
+        "scala": {
+            "organization": "org.scala-lang",
+            "name": "scala-compiler",
+            "version": "2.13.9",
+            "options": [
+                "-Xplugin:/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/semanticdb-scalac_2.13.9/4.5.13/semanticdb-scalac_2.13.9-4.5.13.jar",
+                "-Yrangepos",
+                "-P:semanticdb:targetroot:/home/ubuntu/repos/generate_readme/tests/target/target2.13-jvm-2.13/meta"
+            ],
+            "jars": [
+                "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar",
+                "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.9/scala-compiler-2.13.9.jar",
+                "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.9/scala-reflect-2.13.9.jar",
+                "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar",
+                "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar",
+                "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+            ],
+            "setup": {
+                "order": "mixed",
+                "addLibraryToBootClasspath": true,
+                "addCompilerToClasspath": false,
+                "addExtraJarsToClasspath": false,
+                "manageBootClasspath": true,
+                "filterLibraryFromClasspath": true
+            }
+        },
+        "java": {
+            "options": [
+                
+            ]
+        },
+        "test": {
+            "frameworks": [
+                {
+                    "names": [
+                        "org.scalacheck.ScalaCheckFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs2.runner.Specs2Framework",
+                        "org.specs2.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.specs.runner.SpecsFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "org.scalatest.tools.Framework",
+                        "org.scalatest.tools.ScalaTestFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "com.novocode.junit.JUnitFramework"
+                    ]
+                },
+                {
+                    "names": [
+                        "munit.Framework"
+                    ]
+                }
+            ],
+            "options": {
+                "excludes": [
+                    
+                ],
+                "arguments": [
+                    
+                ]
+            }
+        },
+        "platform": {
+            "name": "jvm",
+            "config": {
+                "home": "/home/ubuntu/.jabba/jdk/openjdk@1.17.0",
+                "options": [
+                    "-Duser.dir=/home/ubuntu/repos/generate_readme"
+                ]
+            },
+            "mainClass": [
+                
+            ]
+        },
+        "resolution": {
+            "modules": [
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "ch.epfl.scala",
+                    "name": "scalafix-core_2.13",
+                    "version": "0.10.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalafix-core_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.13/0.10.3/scalafix-core_2.13-0.10.3.jar"
+                        },
+                        {
+                            "name": "scalafix-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/scalafix-core_2.13/0.10.3/scalafix-core_2.13-0.10.3-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.googlecode.java-diff-utils",
+                    "name": "diffutils",
+                    "version": "1.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "diffutils",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0.jar"
+                        },
+                        {
+                            "name": "diffutils",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/googlecode/java-diff-utils/diffutils/1.3.0/diffutils-1.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "scalameta_2.13",
+                    "version": "4.5.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalameta_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.13/scalameta_2.13-4.5.13.jar"
+                        },
+                        {
+                            "name": "scalameta_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/scalameta_2.13/4.5.13/scalameta_2.13-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang.modules",
+                    "name": "scala-collection-compat_2.13",
+                    "version": "2.8.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.8.0/scala-collection-compat_2.13-2.8.0.jar"
+                        },
+                        {
+                            "name": "scala-collection-compat_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.8.0/scala-collection-compat_2.13-2.8.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.geirsson",
+                    "name": "metaconfig-typesafe-config_2.13",
+                    "version": "0.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metaconfig-typesafe-config_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0.jar"
+                        },
+                        {
+                            "name": "metaconfig-typesafe-config_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-typesafe-config_2.13/0.10.0/metaconfig-typesafe-config_2.13-0.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "parsers_2.13",
+                    "version": "4.5.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "parsers_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.13/parsers_2.13-4.5.13.jar"
+                        },
+                        {
+                            "name": "parsers_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/parsers_2.13/4.5.13/parsers_2.13-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scalap",
+                    "version": "2.13.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalap",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.9/scalap-2.13.9.jar"
+                        },
+                        {
+                            "name": "scalap",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scalap/2.13.9/scalap-2.13.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.geirsson",
+                    "name": "metaconfig-core_2.13",
+                    "version": "0.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metaconfig-core_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0.jar"
+                        },
+                        {
+                            "name": "metaconfig-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-core_2.13/0.10.0/metaconfig-core_2.13-0.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe",
+                    "name": "config",
+                    "version": "1.4.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "config",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1.jar"
+                        },
+                        {
+                            "name": "config",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/typesafe/config/1.4.1/config-1.4.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "trees_2.13",
+                    "version": "4.5.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "trees_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.13/trees_2.13-4.5.13.jar"
+                        },
+                        {
+                            "name": "trees_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/trees_2.13/4.5.13/trees_2.13-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.9/scala-compiler-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.9/scala-compiler-2.13.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.geirsson",
+                    "name": "metaconfig-pprint_2.13",
+                    "version": "0.10.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "metaconfig-pprint_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0.jar"
+                        },
+                        {
+                            "name": "metaconfig-pprint_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/geirsson/metaconfig-pprint_2.13/0.10.0/metaconfig-pprint_2.13-0.10.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "paiges-core_2.13",
+                    "version": "0.4.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "paiges-core_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.2/paiges-core_2.13-0.4.2.jar"
+                        },
+                        {
+                            "name": "paiges-core_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/paiges-core_2.13/0.4.2/paiges-core_2.13-0.4.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-reflect",
+                    "version": "2.13.9",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scala-reflect",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.9/scala-reflect-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-reflect",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.9/scala-reflect-2.13.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "common_2.13",
+                    "version": "4.5.13",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "common_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.13/common_2.13-4.5.13.jar"
+                        },
+                        {
+                            "name": "common_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/common_2.13/4.5.13/common_2.13-4.5.13-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scalameta",
+                    "name": "fastparse-v2_2.13",
+                    "version": "2.3.1",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fastparse-v2_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-v2_2.13/2.3.1/fastparse-v2_2.13-2.3.1.jar"
+                        },
+                        {
+                            "name": "fastparse-v2_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scalameta/fastparse-v2_2.13/2.3.1/fastparse-v2_2.13-2.3.1-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.github.java-diff-utils",
+                    "name": "java-diff-utils",
+                    "version": "4.12",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "java-diff-utils",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12.jar"
+                        },
+                        {
+                            "name": "java-diff-utils",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/io/github/java-diff-utils/java-diff-utils/4.12/java-diff-utils-4.12-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.jline",
+                    "name": "jline",
+                    "version": "3.21.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jline",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0.jar"
+                        },
+                        {
+                            "name": "jline",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jline/jline/3.21.0/jline-3.21.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "net.java.dev.jna",
+                    "name": "jna",
+                    "version": "5.9.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jna",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0.jar"
+                        },
+                        {
+                            "name": "jna",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/net/java/dev/jna/jna/5.9.0/jna-5.9.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "fansi_2.13",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "fansi_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.3.0/fansi_2.13-0.3.0.jar"
+                        },
+                        {
+                            "name": "fansi_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/fansi_2.13/0.3.0/fansi_2.13-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "sourcecode_2.13",
+                    "version": "0.3.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "sourcecode_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0.jar"
+                        },
+                        {
+                            "name": "sourcecode_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.3.0/sourcecode_2.13-0.3.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thesamet.scalapb",
+                    "name": "scalapb-runtime_2.13",
+                    "version": "0.11.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "scalapb-runtime_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.11/scalapb-runtime_2.13-0.11.11.jar"
+                        },
+                        {
+                            "name": "scalapb-runtime_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/scalapb-runtime_2.13/0.11.11/scalapb-runtime_2.13-0.11.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "geny_2.13",
+                    "version": "0.6.5",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "geny_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5.jar"
+                        },
+                        {
+                            "name": "geny_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.5/geny_2.13-0.6.5-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.thesamet.scalapb",
+                    "name": "lenses_2.13",
+                    "version": "0.11.11",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "lenses_2.13",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.11/lenses_2.13-0.11.11.jar"
+                        },
+                        {
+                            "name": "lenses_2.13",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thesamet/scalapb/lenses_2.13/0.11.11/lenses_2.13-0.11.11-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.google.protobuf",
+                    "name": "protobuf-java",
+                    "version": "3.19.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "protobuf-java",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2.jar"
+                        },
+                        {
+                            "name": "protobuf-java",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/com/google/protobuf/protobuf-java/3.19.2/protobuf-java-3.19.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-compiler",
+                    "version": "2.13.9",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-compiler",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.9/scala-compiler-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-compiler",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.13.9/scala-compiler-2.13.9-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.9",
+                    "configurations": "optional",
+                    "artifacts": [
+                        {
+                            "name": "scala-library",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "sources",
+                            "path": "/home/ubuntu/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.9/scala-library-2.13.9-sources.jar"
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": [
+            "library"
+        ]
+    }
+}

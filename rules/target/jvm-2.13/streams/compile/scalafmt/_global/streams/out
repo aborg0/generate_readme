@@ -1,0 +1,15 @@
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Adding repositories [https://repo1.maven.org/maven2/,https://oss.sonatype.org/service/local/repositories/releases/content/][0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: considering all files (no git)[0m
+[0m[[0m[0mdebug[0m] [0m[0mscalafmt: Change report:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Checked: /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadmeConfig.scala, /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadme.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Modified: /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadmeConfig.scala, /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadme.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Unmodified: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	Added: /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadmeConfig.scala, /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadme.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Removed: [0m
+[0m[[0m[0minfo[0m] [0m[0mscalafmt: Formatting 2 Scala sources (/home/ubuntu/repos/scalafix/.sbt/matrix/rules2_13)...[0m
+[0m[[0m[31merror[0m] [0m[0morg.scalafmt.sbt.ScalafmtSbtReporter$ScalafmtSbtError: scalafmt: /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadme.scala:8: error: [dialect scala213] : expected but ( found[0m
+[0m[[0m[31merror[0m] [0m[0m  def this(GenerateReadmeConfig())[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^ [/home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadme.scala][0m
+[0m[[0m[31merror[0m] [0m[0m(rules2_13 / Compile / [31mscalafmt[0m) org.scalafmt.sbt.ScalafmtSbtReporter$ScalafmtSbtError: scalafmt: /home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadme.scala:8: error: [dialect scala213] : expected but ( found[0m
+[0m[[0m[31merror[0m] [0m[0m  def this(GenerateReadmeConfig())[0m
+[0m[[0m[31merror[0m] [0m[0m                               ^ [/home/ubuntu/repos/scalafix/rules/src/main/scala/fix/GenerateReadme.scala][0m

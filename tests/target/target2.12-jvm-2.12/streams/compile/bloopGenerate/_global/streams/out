@@ -1,0 +1,4 @@
+[debug] [testsTarget2_12] Classpath dependencies List(rules2_12)
+[debug] [testsTarget2_12] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'testsTarget2_12' to '/home/ubuntu/repos/generate_readme/.bloop/testsTarget2_12.json'
+[success] Generated .bloop/testsTarget2_12.json

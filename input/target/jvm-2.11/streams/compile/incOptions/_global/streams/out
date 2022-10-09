@@ -1,0 +1,7 @@
+[debug] Created transactional ClassFileManager with tempDir = /home/ubuntu/repos/scalafix/input/target/jvm-2.11/classes.bak
+[debug] About to delete class files:
+[debug] We backup class files:
+[debug] Registering generated classes:
+[debug] 	Scalafixmyrules$.class
+[debug] 	Scalafixmyrules.class
+[debug] Removing the temporary directory used for backing up class files: /home/ubuntu/repos/scalafix/input/target/jvm-2.11/classes.bak

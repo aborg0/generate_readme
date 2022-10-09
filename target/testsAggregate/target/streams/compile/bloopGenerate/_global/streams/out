@@ -1,0 +1,4 @@
+[debug] [tests] Classpath dependencies List()
+[debug] [tests] Dependencies from configurations List()
+[debug] Bloop wrote the configuration of project 'tests' to '/home/ubuntu/repos/generate_readme/.bloop/tests.json'
+[success] Generated .bloop/tests.json
