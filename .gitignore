@@ -5,3 +5,4 @@
 **/.vscode/*
 **/target/*
 **/metals.sbt
+!.vscode/launch.json
