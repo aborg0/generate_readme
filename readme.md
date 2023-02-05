@@ -1,7 +1,7 @@
-# Scalafix rules for scalafix-my-rules
+# Scalafix rules for Generate Readme
 
 To develop rule:
 ```
 sbt ~tests/test
-# edit rules/src/main/scala/fix/Scalafixmyrules.scala
+# edit rules/src/main/scala/fix/GenerateReadme.scala
 ```
